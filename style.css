@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box; 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    background-color: black;
+    color: #14ffbc; /* neon green */
+    text-shadow: 
+      0 0 5px #39FF14,
+      0 0 10px #14ffbc,
+      0 0 15px #14ffbc,
+      0 0 20px #14ffbc,
+      0 0 22px #39FF14;
+    }
+
+h1 {
+    position: absolute;
+    top: 0px;
+    left: 530px;
+    margin: 10px;   
+}
+#ui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 1px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(246, 246, 246);
+}
+
+.container div {
+    background-color: #e0dcdc;
+}
